@@ -1,0 +1,124 @@
+body{
+  background: #f0f0f6;
+  font-size: 16px;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin:0;
+}
+
+nav{
+  display:inline;
+  font-size: 1em;
+  font-family: 'Source Sans Pro', sans-serif;
+} 
+
+nav li {
+  margin: 5px;
+  display:inline;
+}
+
+nav ul {
+  float: left;
+  margin-top: 25px;
+}
+
+h1{
+  font-family: 'Roboto', sans-serif;
+  color:  #41A3C0; 
+  font-weight: bolder;
+  font-size: 2em;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  color: #054572;
+  font-weight: lighter;
+  font-size: 1.5em;
+}
+
+p{
+  color: #054572;
+}
+
+a { 
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(225, 0, 152);
+}
+
+footer {
+  text-align:center; 
+}
+
+#download{
+color:#054572;
+text-align:center;
+line-height:2em;
+}
+
+#logo{
+  color: rgb(225, 0, 152);
+  font-size: 35px;
+  font-family: 'Pacifico', cursive;
+  float: left;
+  margin-left: 50px;
+}
+
+/* Mis en forme de la baseline */
+#baseline{
+  background:linear-gradient(#0dd6fa,#0d92fa);
+  text-align: center;
+  background-size: cover;
+  padding: 150px;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+
+#baseline h1 {
+  color: white;
+  font-size: 50px;
+}
+
+#baseline a {
+  color: white;
+  font-size: 30px;
+  font-weight: lighter;
+  text-decoration: none;
+}
+
+#baseline a:hover {
+  position: relative;
+  top:1px;
+}
+
+.feature {
+  border:70px solid ;
+  border-image: linear-gradient(#2bb6dc,#8bd3e7)10;
+  margin:0 auto;
+  text-align:center;
+  padding:10px;
+  background : linear-gradient(#b0d5f2,#b0c0f2);
+  width:400px;
+}
+
+.feature2 {
+    border:70px solid ;
+  border-image: linear-gradient(#eab0f2,#dc2b66)10;
+  margin:0 auto;
+  text-align:center;
+  padding:10px;
+  background : linear-gradient(#b0d5f2,#b0c0f2);
+  width:400px;
+}
+
+#apropos {
+  margin:0 auto;
+  width:80%;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+
+
